@@ -6,5 +6,8 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'chat-bot';
+  links = [
+    { path: '/main', label: 'Main', active: 'button-active'},
+    { path: '/chat', label: 'Chat', active: 'button-active'}
+  ];
 }
